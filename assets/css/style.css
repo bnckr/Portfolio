@@ -1,0 +1,327 @@
+body {
+    background: darkcyan;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: gray;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.titulo {
+    margin-top: 5%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+
+}
+
+.conteudo {
+    margin-top: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.p__edit {
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+
+}
+
+.a__edit {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.card {
+    width: 15rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.progress {
+    width: 900px;
+}
+
+.progress-bar {
+    color: black;
+}
+
+.col-2 {
+    width: 125px;
+}
+
+.col-8 {
+    padding-top: 6px;
+}
+
+.paragrafo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.lista {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    list-style: none;
+}
+
+.item__lista {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.gif_footer {
+    text-align: end;
+}
+
+.img_footer {
+    width: 150px;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.card_prof {
+    width: 550px;
+    height: 330px;
+}
+
+.col-md-4 {
+    padding-top: 55px;
+    text-align: center;
+}
+
+.coluna_card {
+    display: inline-block;
+}
+
+.sessao_card {
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.btn__certificado {
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+}
+
+.texto {
+    font-size: 14px;
+}
+
+.tamanho__card {
+    height: 300px;
+}
+
+#btn1 {
+    margin-top: 20px;
+}
+
+.about__me {
+    margin: 5%;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.hobbies {
+    margin: 0 5%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+}
+
+.contato {
+    margin: 0 5%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+}
+
+.link___a {
+    display: inline;
+}
+
+.lista__hobbies {
+    font-family: 'Montserrat', sans-serif;
+    margin: 1% 6%;
+}
+
+#game {
+    list-style: url(../img/game-controller.png);
+}
+
+#pikachu {
+    list-style: url(../img/pokeball.png);
+}
+
+#foto {
+    list-style: url(../img/camera.png);
+}
+
+#happy {
+    list-style: url(../img/smile.png);
+}
+
+#nada {
+    list-style: url(../img/zzz.png);
+}
+
+.form-label {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 5%;
+}
+
+.form-control {
+    width: 400px;
+    margin-left: 5%;
+}
+
+.btn__enviar {
+    margin-left: 5%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.link__ {
+    color: black;
+    margin-left: 15%;
+}
+
+.card_prof__res {
+    height: 290px; 
+    width: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+    .img__et {
+        margin-top: -130%;
+        width: 300px;
+    }
+
+    .p__edit {
+        margin-top: 55%;
+    }
+
+    .card {
+        margin-left: 15%;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        width: 100%;
+        position: relative;
+    }
+
+    .paragrafo,
+    .progress {
+        display: none;
+    }
+
+    .card_prof {
+        width: 300px;
+        height: 450px;
+    }
+
+    .col-md-4 {
+        padding-top: 55px;
+        text-align: center;
+    }
+
+    .sessao_card {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .img___card {
+        display: none;
+    }
+
+    .coluna_card {
+        margin-right: 15%;
+        margin-left: -10%;
+    }
+
+    .card_prof__res {
+        width: 300px;
+        height: 500px;
+    }
+
+    .hobbies {
+        margin-left: -1em;
+    }
+
+    .lista__hobbies {
+        line-height: 30px;
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .btn__enviar {
+        margin-left: 5%;
+        text-transform: uppercase;
+        width: 150px;
+        font-weight: bold;
+    }
+    
+    .link__ {
+        color: black;
+        margin-left: 15%;
+        padding-bottom: 20px;
+    }
+
+    .link___a {
+        margin-left: 2em;
+        display: inline-flex;
+    }
+
+    #game {
+        list-style: url(../img/game-controller.png);
+        margin-left: -1em;
+    }
+    
+    #pikachu {
+        list-style: url(../img/pokeball.png);
+        margin-left: -1em;
+    }
+    
+    #foto {
+        list-style: url(../img/camera.png);
+        margin-left: -1em;
+    }
+    
+    #happy {
+        list-style: url(../img/smile.png);
+        margin-left: -1em;
+    }
+    
+    #nada {
+        list-style: url(../img/zzz.png);
+        margin-left: -1em;
+    }
+}
